@@ -1,41 +1,59 @@
 ---
 layout: page
-title: Docsy Jekyll Theme
+title: Fernando Cejas - Linux Docs
+description: Welcome to Linux Docs. This my open book. Here you will find notes, tips and tricks about linux and open source. I hope you learn something out of this and find the content interesting and valuable. Feel free to contribute. 
 permalink: /
+excluded_in_search: true
 ---
 
-# Welcome to Docsy Jekyll
+# Linux Docs
 
-This is a starter template for a docsy jekyll theme.
+Welcome! I would like begin with this **inspirational quote**:
 
-![assets/img/docsy-jekyll.png](assets/img/docsy-jekyll.png)
+{% include alert.html type="primary" title="If someone is in need, lend them a helping hand. Do not wait for a thank you." %}
+
+Story telling about profesional and personal experiences is something very important to me, not only for learning purpose but also to **avoid others to hit their head against a brick wall**, and thus **avoiding the mistakes I have made in my life and career**.
+
+```
+❯ cowthink welcome to Linux Docs
+ _______________________ 
+( welcome to Linux Docs )
+ ----------------------- 
+        o   ^__^
+         o  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+```
 
 ## Purpose
 
-GitHub pages uses Jekyll natively, so when I make documentation, I typically
-look for Jekyll templates. Why? Using Jekyll means that I can use markdown,
-and allow for users to easily contribute, and build automatically just by
-way of pushing to a master branch (or general GitHub pages).
-I found Docsy, a beautiful Hugo template, but it requires hugo with GoLang
-which doesn't render natively on GitHub pages. For this reason, I've spent
-some time creating a custom Jekyll template that is (almost) as beautiful,
-and includes all the features that I might want.
+**This is my linux open book**. A place where I share knowledge and experiences, mostly based on [Arch Linux](https://archlinux.org){:target="_blank"} but pretty much all the content could be applied to any **Linux Distribution**.
 
-## Features
+I hope you find this site interesting and valuable, so you can learn, use and take advantage of it. I would also love to include anything that adds even more valuable, so feel free to read the [Feedback and Contribution](#feedback-and-contribution) section if you are interested in participating.  
 
-What are these features? You should see the {% include doc.html name="Getting Started" path="getting-started" %}
-guide for a complete summary. Briefly:
+## Feedback and Contribution
 
- - *User interaction* including consistent permalinks, links to ask questions via GitHub issues, and edit the file on GitHub directly.
- - *Search* across posts, documentation, and other site pages, with an ability to exclude from search.
- - *External Search* meaning an ability to link any page tag to trigger an external search.
- - *Documentation* A documentation collection that was easy to organize on the filesystem, render with nested headings for the user, and refer to in markdown.
- - *Pages* A separate folder for more traditional pages (e.g, about).
- - *Navigation*: Control over the main navigation on the left of the page, and automatic generation of table of contents for each page on the right.
- - *News* A posts feed for news and updates, along with an archive (organized by year).
- - *Templates* or specifically, "includes" that make it easy to create an alert, documentation link, or other content.
- - *Continuous Integration* recipes to preview the site
+I would like to make this process as easy as possible so any suggestions are more than welcome.
+You can contribute by:
 
+ - Clicking **Edit** on the left side of each page, which [opens a PR](https://github.com/android10/linux.github.io/pulls){:target="_blank"} on **Github**.
+ - [Sending a PR](https://github.com/android10/linux.github.io/pulls){:target="_blank"} on **Github**.
+ - [Opening an isuee](https://github.com/android10/linux.github.io/issues){:target="_blank"} on the **Github** Repository
 
-For features, getting started with development, see the {% include doc.html name="Getting Started" path="getting-started" %} page. Would you like to request a feature or contribute?
-[Open an issue]({{ site.repo }}/issues)
+Do not forget to [check out Style and Customization Section](docs/extras/getting-started) of this website in order to be consistent with the current content. 
+
+## Be in touch
+
+Let's get the conversation started! **Always more than happy to be in touch and get to know other people around the globe.** 
+
+if you have feedback, please ping me on [Twitter](https://twitter.com/fernando_cejas){:target="_blank"}, [Fosstodon](https://fosstodon.org/@android10){:target="_blank"}, or drop me a line via [email](mailto:android@fernandocejas.com){:target="_blank"}. There is also contact information on my [personal website](https://fernandocejas.com){:target="_blank"}. 
+
+## Thanks
+
+I want to say **THANKS** and give a **BIG SHOUTOUT** to:
+
+ - All the **contributors** involved who have provided me super awesome feedback.
+ - **People** I bumped into, who helped me grow as a person and as a professional. 
+ - To **you** for visiting this site and taking the time to read it. 

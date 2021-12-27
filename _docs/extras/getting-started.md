@@ -1,17 +1,14 @@
 ---
-title: Getting Started
-tags: 
- - jekyll
- - github
+title: Style and Customization
 description: Getting started with Docsy Jekyll
+excluded_in_search: true
 ---
 
-# Getting Started
+# Getting Started with Styles and Customization
 
 ## Features
 
 ### User Interaction
-
 
 On the right side of any page, you'll notice links to edit the page, or
 open an issue. This ensures that any time you have a question or want to 
@@ -388,3 +385,92 @@ spot on the tags page linked above.
 tag_color: primary # danger, success, warning, primary, info, secondary
 ```
 
+# Nested Pages
+
+This is an example of a page that doesn't have a permalink defined, and
+is not included in the table of contents (`_data/toc.yml`). This means
+that it will render based on it's path. Since it's in `docs/example-page.md`,
+the url will be `docs/example-page/`.
+
+## Link to a subfolder
+
+Now let's say we want to link to a subfolder, specifically with this
+setup:
+
+```
+docs/
+  example-page.md  (-- we are here
+  subfolder/
+     example-page.md  (-- we want to link here
+```
+
+You can provide the relative path to the file, like `subfolder/example-page.md`
+and Jekyll will handle parsing it. For example:
+
+ - [here is that link](subfolder/example-page)
+ 
+And {% include doc.html name="here" path="subfolder/example-page" %} is the same link, 
+but generated with the include statement:
+
+```
+{% raw %}{% include doc.html name="here" path="subfolder/example-page" %}{% endraw %}
+```
+
+# Quizzes
+
+As of version 0.0.12, docsy-jekyll has support for basic quizzes! These are
+intended to help educate your users about the content of your documentation.
+For a quiz, you can add a new file to the folder `_data/quizzes`, and write a 
+questions file based on the format shown in `_data/quizzes/example-quiz.yml`.
+Here is a simple example of a multiple choice question (which can also serve as 
+True/False):
+
+```yaml
+title: This is the Quiz Title
+randomized: false
+questions:
+
+ - type: "multiple-choice"
+   question: "True or False, Pittsburgh is West of Philadelphia"
+   items:
+    - choice: True
+      correct: true
+    - choice: False
+      correct: false
+   followup: | 
+      The answer is True! Pittsburgh is 304.9 miles West of 
+      Philadelphia, or approximately a car ride of 
+      4 hours and 52 minutes. Buckle up!
+```
+
+The quiz is rendered with a "Show Answer" button below each question, and when
+the user clicks it, any questions that are flagged with `correct: true` will be 
+bolded, and if a followup section is included, it will be displayed.
+See the live example at the end of this page.
+
+## Options
+
+#### Title
+
+If you include a title, it will be rendered at the top of the quiz. This is
+optional - you can leave it out and add it before the include on the page.
+
+#### Random
+
+If you want your questions to be presented randomly, just add randomized: true
+to the data.
+
+
+## Example Quiz
+
+If I want to include the quiz located at `_data/quizzes/example-quiz.yml`, I 
+can do so like this:
+
+```
+{% raw %}{% include quiz.html file='example-quiz' %}{% endraw %}
+```
+
+The rendered quiz is shown here:
+
+
+{% include quiz.html file='example-quiz' %}

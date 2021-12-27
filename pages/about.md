@@ -3,8 +3,6 @@ title: About Linux Docs
 description: About Linux Docs
 permalink: /about/
 excluded_in_search: true
-tags: 
- - about
 ---
 
 # About me

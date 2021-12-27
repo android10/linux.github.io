@@ -1,23 +1,22 @@
-- title: Documentation
-  url: docs
-  links:
-    - title: "Getting Started"
-      url: "docs/getting-started"
-      children:
-        - title: Features
-          url: "docs/getting-started#getting-started"
-        - title: Development
-          url: "docs/getting-started#development"
-        - title: Customization
-          url: "docs/getting-started#customization"
-    - title: "About"
-      url: "about"
-    - title: "News"
-      url: "news"
+- title: Guides
+  url: docs/guides
+  links: 
+    - title: "Install and configure Wireguard"
+      url: "docs/guides/install-and-configure-wireguard"
+
+- title: How to
+  url: docs/how-to
+  links: 
+    - title: "Change your Hostname"
+      url: "docs/how-to/change-your-hostname"
+  
+
 - title: "Extras"
   url: "docs/extras"
   links:
-    - title: Quizzes
-      url: "docs/extras/example-quiz"
-    - title: Tags Page
+    - title: About
+      url: "about" 
+    - title: Contribute
+      url: "#feedback-and-contribution"
+    - title: Tags
       url: "tags"
