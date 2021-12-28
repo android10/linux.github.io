@@ -9,6 +9,8 @@
   links: 
     - title: "Change your Hostname"
       url: "docs/how-to/change-your-hostname"
+    - title: "Update your System"
+      url: "docs/how-to/update-your-system"      
   
 
 - title: "Extras"

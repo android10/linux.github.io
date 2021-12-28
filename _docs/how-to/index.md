@@ -10,3 +10,4 @@ This section includes **small tutorials and articles** describing **tiny guides*
 achieve an specific task in **Linux**. 
 
  - [Change your hostname](change-your-hostname)
+ - [Update your system](update-your-system)

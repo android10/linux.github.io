@@ -29,7 +29,14 @@ Story telling about profesional and personal experiences is something very impor
 
 ## Purpose
 
-**This is my linux open book**. A place where I share knowledge and experiences, mostly based on [Arch Linux](https://archlinux.org){:target="_blank"} but pretty much all the content could be applied to any **Linux Distribution**.
+**This is my linux open book**. A place where I share knowledge and experiences, mostly based on [Arch Linux](https://archlinux.org)
+{:target="_blank"} via **command line** but pretty much all the content could be applied to any **Linux Distribution**. Linux based systems I use and you might find here:
+
+ - [Arch Linux](https://archlinux.org){:target="_blank"}
+ - [Manjaro](https://manjaro.org/){:target="_blank"}
+ - [Arch Linux ARM](https://archlinuxarm.org/){:target="_blank"}
+ - [Raspbian](https://www.raspbian.org/){:target="_blank"}
+ - [OpenWRT](https://openwrt.org/){:target="_blank"}
 
 I hope you find this site interesting and valuable, so you can learn, use and take advantage of it. I would also love to include anything that adds even more valuable, so feel free to read the [Feedback and Contribution](#feedback-and-contribution) section if you are interested in participating.  
 
