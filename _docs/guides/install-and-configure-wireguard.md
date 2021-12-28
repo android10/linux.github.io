@@ -16,27 +16,27 @@ From the [Wireguard](https://www.wireguard.com/){:target="_blank"} project homep
 
 **WireGuard is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography.** It aims to be faster, simpler, leaner, and more useful than IPsec, while avoiding the massive headache. **It intends to be considerably more performant than OpenVPN...**
 
-### TODO
+## TODO
 
 To be continued...
 
-### Install Wireguard Tools
+## Install Wireguard Tools
 
 ```bash
-sudo pacman -S wireguard-tools
+$ sudo pacman -S wireguard-tools
 ```
 
-### OpenWRT
+## OpenWRT
 
 If you are interested in installing **Wireguard** on your [OpenWRT](https://openwrt.org/){:target="_blank"} router, then this guide is the way to go (I have tried it out myself):
 
  - [Installing and configuring Wireguard on OpenWRT](https://jasonschaefer.com/wireguard-vpn-on-openwrt/){:target="_blank"}
 
-### Raspbian
+## Raspbian
 
 Some time ago I published a [Github Repository](https://github.com/android10/RaspberryPi-Wireguard){:target="_blank"} on how to do this and it is still valid. Feel free to contribute if you run into issues. 
 
-### References
+## References
 
  - [Wireguard Website](https://www.wireguard.com/){:target="_blank"}
  - [Wireguard Quick Start Guide](https://www.wireguard.com/quickstart/){:target="_blank"}

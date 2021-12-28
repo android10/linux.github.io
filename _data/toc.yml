@@ -12,7 +12,9 @@
   links: 
     - title: "- Change your Hostname"
       url: "docs/how-to/change-your-hostname"
-    - title: "- Find your ip address"
+    - title: "- Copy folder content including hidden files"
+      url: "docs/how-to/copy-folder-content-including-hidden-files"
+    - title: "- Find your IP Address"
       url: "docs/how-to/find-your-ip-address"
     - title: "- Update your system"
       url: "docs/how-to/update-your-system"
