@@ -29,6 +29,13 @@
       url: "docs/tips-and-tricks/replace-your-shell"
 
 
+- title: "Troubleshooting"
+  url: docs/troubleshooting
+  links:
+    - title: "- Add correct key in known hosts"
+      url: "docs/troubleshooting/add-correct-key-in-known-hosts" 
+
+
 - title: "Extras"
   url: "docs/extras"
   links:
