@@ -12,18 +12,21 @@
   links: 
     - title: "- Change your Hostname"
       url: "docs/how-to/change-your-hostname"
-    - title: "- Update your System"
+    - title: "- Find your ip address"
+      url: "docs/how-to/find-your-ip-address"
+    - title: "- Update your system"
       url: "docs/how-to/update-your-system"
-  
-- title: "Commands"
-  url: docs/commands
+
+
+- title: "Tips and Tricks"
+  url: docs/tips-and-tricks
   links: 
-    - title: "- cp"
-      url: "docs/commands/cp"
-    - title: "- ls"
-      url: "docs/commands/ls"
-    - title: "- nmap"
-      url: "docs/commands/nmap"      
+    - title: "- Renew your 'top' command"
+      url: "docs/tips-and-tricks/renew-your-top-command"
+    - title: "- Replace your 'ls' command"
+      url: "docs/tips-and-tricks/replace-your-ls-command"
+    - title: "- Replace your shell"
+      url: "docs/tips-and-tricks/replace-your-shell"
 
 
 - title: "Extras"

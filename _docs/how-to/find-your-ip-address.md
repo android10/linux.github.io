@@ -1,10 +1,10 @@
 ---
-title:  ls
-description: Tip andtricks, recipes, guides and troubleshooting on how to use the 'ls' linux command. 
+title:  How to find your ip address
+description: In this post, we are going to see how to find your ip address in linux. 
 tags: 
- - commands
+ - how-to
 ---
 
-# ls
+# Find your ip address
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
