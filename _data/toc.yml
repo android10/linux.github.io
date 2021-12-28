@@ -1,24 +1,37 @@
-- title: Guides
+- title: "Guides"
   url: docs/guides
-  links: 
-    - title: "Install and configure Wireguard"
+  links:
+    - title: "- Decrypt LUKS partition remotely via SSH"
+      url: "docs/guides/decrypt-luks-partition-remotely-via-ssh" 
+    - title: "- Install and configure Wireguard"
       url: "docs/guides/install-and-configure-wireguard"
 
-- title: How to
+
+- title: "How to"
   url: docs/how-to
   links: 
-    - title: "Change your Hostname"
+    - title: "- Change your Hostname"
       url: "docs/how-to/change-your-hostname"
-    - title: "Update your System"
-      url: "docs/how-to/update-your-system"      
+    - title: "- Update your System"
+      url: "docs/how-to/update-your-system"
   
+- title: "Commands"
+  url: docs/commands
+  links: 
+    - title: "- cp"
+      url: "docs/commands/cp"
+    - title: "- ls"
+      url: "docs/commands/ls"
+    - title: "- nmap"
+      url: "docs/commands/nmap"      
+
 
 - title: "Extras"
   url: "docs/extras"
   links:
-    - title: About
+    - title: "- About"
       url: "about" 
-    - title: Contribute
+    - title: "- Contribute"
       url: "#feedback-and-contribution"
-    - title: Tags
+    - title: "- Tags"
       url: "tags"

@@ -1,10 +1,10 @@
 ---
-title:  Install and configure Wireguard
-description: In this guide, we are going to see how to install and setup Wireguard in order to encrypt traffic via a tunnel (VPN). 
+title:  cp
+description: Tip andtricks, recipes, guides and troubleshooting on how to use the 'cp' linux command. 
 tags: 
- - guides
+ - commands
 ---
 
-# Install and configure Wireguard
+# cp
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
