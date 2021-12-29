@@ -12,4 +12,6 @@ achieve an specific task in **Linux**.
  - [Change your hostname](change-your-hostname)
  - [Copy folder content including hidden files](copy-folder-content-including-hidden-files)
  - [Find your IP Address](find-your-ip-address)
+ - [Handle Linux services](handle-linux-services)
+ - [Set static IP Address](set-static-ip-address)
  - [Update your system](update-your-system)

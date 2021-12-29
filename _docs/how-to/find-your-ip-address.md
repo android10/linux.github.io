@@ -1,6 +1,6 @@
 ---
 title:  How to find your IP Address
-description: In this post, we are going to see how to find your IP Address in Linux. 
+description: In this post, we are going to see how to find your IP Address on Linux. 
 tags: 
  - how-to
 ---

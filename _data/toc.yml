@@ -10,12 +10,16 @@
 - title: "How to"
   url: docs/how-to
   links: 
-    - title: "- Change your Hostname"
+    - title: "- Change your hostname"
       url: "docs/how-to/change-your-hostname"
     - title: "- Copy folder content including hidden files"
       url: "docs/how-to/copy-folder-content-including-hidden-files"
-    - title: "- Find your IP Address"
+    - title: "- Find your IP address"
       url: "docs/how-to/find-your-ip-address"
+    - title: "- Handle Linux services"
+      url: "docs/how-to/handle-linux-services"      
+    - title: "- Set static IP address"
+      url: "docs/how-to/set-static-ip-address"
     - title: "- Update your system"
       url: "docs/how-to/update-your-system"
 
