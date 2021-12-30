@@ -3,6 +3,10 @@ title:  How to set a static IP address
 description: In this post, we are going to see how to set a static IP address on Linux. 
 tags: 
  - how-to
+ - arch
+ - manjaro
+ - systemd
+ - network-manager
 ---
 
 # Set a static IP address

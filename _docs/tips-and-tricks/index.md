@@ -11,3 +11,4 @@ This section includes **tips and tricks** in order to get the best out of **Linu
  - [Renew your 'top' command](renew-your-top-command)
  - [Replace your 'ls' command](replace-your-ls-command)
  - [Replace your shell](replace-your-shell)
+ - [Vim most common usage](vim-most-common-usage)
