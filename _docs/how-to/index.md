@@ -11,7 +11,8 @@ achieve an specific task in **Linux**.
 
  - [Change your hostname](change-your-hostname)
  - [Copy folder content including hidden files](copy-folder-content-including-hidden-files)
- - [Find your IP Address](find-your-ip-address)
+ - [Find your IP address](find-your-ip-address)
+ - [Generate SSH keys on Linux](generate-ssh-keys-on-linux)
  - [List services and edit their configuration](list-services-and-edit-their-configuration)
  - [Set static IP Address](set-static-ip-address)
  - [Start/stop/enable Linux services](start-stop-enable-linux-services)
