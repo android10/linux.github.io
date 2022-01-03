@@ -48,8 +48,8 @@
 - title: "Troubleshooting"
   url: docs/troubleshooting
   links:
-    - title: "- Add correct key in known hosts."
-      url: "docs/troubleshooting/add-correct-key-in-known-hosts" 
+    - title: "- Remote host identification has changed."
+      url: "docs/troubleshooting/remote-host-identification-has-changed" 
 
 
 - title: "Extras"

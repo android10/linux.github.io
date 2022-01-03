@@ -8,4 +8,4 @@ excluded_in_search: true
 
 This is the **troubleshooting** section which includes different scenarios and how to tackle/address those problems. 
 
- - [Add correct key in known hosts.](add-correct-key-in-known-hosts)
+ - [Remote host identification has changed.](remote-host-identification-has-changed)
