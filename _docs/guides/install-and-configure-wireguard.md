@@ -1,5 +1,5 @@
 ---
-title:  Install and configure Wireguard
+title:  Install and configure Wireguard.
 description: In this guide, we are going to see how to install and setup Wireguard in order to encrypt traffic via a tunnel (VPN). 
 tags: 
  - guides

@@ -1,5 +1,5 @@
 ---
-title:  How to start/stop/enable Linux services
+title:  How to start/stop/enable Linux services.
 description: In this post, we are going to see how to start/stop/enable services in a basic way on Linux. 
 tags: 
  - how-to

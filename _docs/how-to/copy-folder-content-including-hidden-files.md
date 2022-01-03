@@ -1,5 +1,5 @@
 ---
-title:  How to copy folder content including hidden files
+title:  How to copy folder content including hidden files.
 description: In this post, we are going to see how to copy folder content including hidden files in linux. 
 tags: 
  - how-to

@@ -1,5 +1,5 @@
 ---
-title:  Renew your 'top' command
+title:  Renew your 'top' command.
 description: In this post, we are going to see better alternatives for our 'top' command in order to check running linux processes.
 tags: 
  - tips-and-tricks

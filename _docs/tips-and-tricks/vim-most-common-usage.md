@@ -1,5 +1,5 @@
 ---
-title:  Vim most common usage
+title:  Vim most common usage.
 description: In this post, we are going to see the most common 'vim' commands and its usage .
 tags: 
  - tips-and-tricks

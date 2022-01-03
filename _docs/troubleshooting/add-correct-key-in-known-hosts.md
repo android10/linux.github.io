@@ -1,5 +1,5 @@
 ---
-title:  Add correct key in known hosts
+title:  Add correct key in known hosts.
 description: In this post, we are going to see to mitigate the issue 'add correct key in known hosts'.
 tags: 
  - troubleshooting

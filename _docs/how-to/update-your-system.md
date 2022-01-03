@@ -1,5 +1,5 @@
 ---
-title:  Update your system
+title:  Update your system.
 description: In this post, we are going to see how to upgrade/update your linux system. 
 tags: 
  - how-to

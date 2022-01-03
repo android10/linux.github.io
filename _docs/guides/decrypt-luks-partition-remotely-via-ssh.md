@@ -1,5 +1,5 @@
 ---
-title:  Decrypt LUKS partition remotely via SSH
+title:  Decrypt LUKS partition remotely via SSH.
 description: In this guide, we are going to see how to decrypt remotely our LUKS partition via SSH by installing and setting up Tiny SSH. 
 tags: 
  - guides

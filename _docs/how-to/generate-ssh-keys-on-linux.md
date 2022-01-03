@@ -1,5 +1,5 @@
 ---
-title:  How to generate SSH keys on Linux
+title:  How to generate SSH keys on Linux.
 description: In this post, we are going to see how to generate SSH keys on Linux. 
 tags: 
  - how-to

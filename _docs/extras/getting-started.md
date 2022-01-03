@@ -1,6 +1,6 @@
 ---
-title: Style and Customization
-description: Getting started with Docsy Jekyll
+title: Style and Customization.
+description: Getting started with Docsy Jekyll.
 excluded_in_search: true
 ---
 

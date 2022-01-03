@@ -1,5 +1,5 @@
 ---
-title:  Replace your 'ls' command
+title:  Replace your 'ls' command.
 description: In this post, we are going to see better alternatives for our 'ls' command in order to list files via command line.
 tags: 
  - tips-and-tricks

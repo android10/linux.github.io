@@ -1,5 +1,5 @@
 ---
-title:  How to change your hostname
+title:  How to change your hostname.
 description: In this post, we are going to see how to change your hostname in linux. 
 tags: 
  - how-to

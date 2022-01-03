@@ -1,5 +1,5 @@
 ---
-title:  Replace your shell
+title:  Replace your shell.
 description: In this post, we are going to see better alternatives for our default linux shell.
 tags: 
  - tips-and-tricks

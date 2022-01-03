@@ -1,61 +1,63 @@
 - title: "Guides"
   url: docs/guides
   links:
-    - title: "- Decrypt LUKS partition remotely via SSH"
+    - title: "- Decrypt LUKS partition remotely via SSH."
       url: "docs/guides/decrypt-luks-partition-remotely-via-ssh" 
-    - title: "- Install and configure Wireguard"
+    - title: "- Install and configure Wireguard."
       url: "docs/guides/install-and-configure-wireguard"
 
 
 - title: "How to"
   url: docs/how-to
   links: 
-    - title: "- Change your hostname"
+    - title: "- Change your hostname."
       url: "docs/how-to/change-your-hostname"
-    - title: "- Copy folder content including hidden files"
+    - title: "- Copy folder content including hidden files."
       url: "docs/how-to/copy-folder-content-including-hidden-files"
-    - title: "- Find your IP address"
+    - title: "- Find your IP address."
       url: "docs/how-to/find-your-ip-address"
-    - title: "- Generate SSH keys on Linux"
+    - title: "- Generate SSH keys on Linux."
       url: "docs/how-to/generate-ssh-keys-on-linux"
-    - title: "- List services and edit their configuration"
+    - title: "- List services and edit their configuration."
       url: "docs/how-to/list-services-and-edit-their-configuration"
-    - title: "- Set static IP address"
+    - title: "- Set static IP address."
       url: "docs/how-to/set-static-ip-address"
-    - title: "- Start/stop/enable Linux services"
+    - title: "- Start/stop/enable Linux services."
       url: "docs/how-to/start-stop-enable-linux-services"
-    - title: "- Update your system"
+    - title: "- Switch from Network Manager to systemd-networkd."
+      url: "docs/how-to/switch-from-network-manager-to-systemd-networkd"
+    - title: "- Update your system."
       url: "docs/how-to/update-your-system"
-    - title: "- Visualize loaded kernel modules"
+    - title: "- Visualize loaded kernel modules."
       url: "docs/how-to/visualize-loaded-kernel-modules"
 
 
 - title: "Tips and Tricks"
   url: docs/tips-and-tricks
   links: 
-    - title: "- Renew your 'top' command"
+    - title: "- Renew your 'top' command."
       url: "docs/tips-and-tricks/renew-your-top-command"
-    - title: "- Replace your 'ls' command"
+    - title: "- Replace your 'ls' command."
       url: "docs/tips-and-tricks/replace-your-ls-command"
-    - title: "- Replace your shell"
+    - title: "- Replace your shell."
       url: "docs/tips-and-tricks/replace-your-shell"
-    - title: "- Vim most common usage"
+    - title: "- Vim most common usage."
       url: "docs/tips-and-tricks/vim-most-common-usage"
 
 
 - title: "Troubleshooting"
   url: docs/troubleshooting
   links:
-    - title: "- Add correct key in known hosts"
+    - title: "- Add correct key in known hosts."
       url: "docs/troubleshooting/add-correct-key-in-known-hosts" 
 
 
 - title: "Extras"
   url: "docs/extras"
   links:
-    - title: "- About"
+    - title: "- About."
       url: "about" 
-    - title: "- Contribute"
+    - title: "- Contribute."
       url: "#feedback-and-contribution"
-    - title: "- Tags"
+    - title: "- Tags."
       url: "tags"
