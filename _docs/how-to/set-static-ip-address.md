@@ -5,13 +5,15 @@ tags:
  - how-to
  - arch
  - manjaro
- - systemd
+ - systemd-networkd
  - network-manager
 ---
 
 # Set a static IP address
 
-Having a static ip could be useful for **headless servers** for example. I personally use [NetworkManager](https://wiki.archlinux.org/title/NetworkManager) to **handle my connections**, so this post will mainly focus on this program in order to **achieve our goal**:
+Having a static ip could be useful for **headless servers** for example. I personally use [NetworkManager](https://wiki.archlinux.org/title/NetworkManager){:target="_blank"} to **handle my connections**, so this post will mainly focus on this program, but in case you want to use [systemd-networkd](https://wiki.archlinux.org/title/Systemd-networkd){:target="_blank"} for the same purpose, please check [How to switch from Network Manager to systemd-networkd](../how-to/switch-from-network-manager-to-systemd-networkd). 
+
+Let's proceed **by checking the status of our service**:
 
 ```bash
 $ sudo systemctl status NetworkManager
