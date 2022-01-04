@@ -37,7 +37,7 @@ The **idea** behind this is simple: we are going to **start an SSH Service** (Ti
 We are going to be using a [mkinitcpio](https://wiki.archlinux.org/title/Mkinitcpio){:target="_blank"} hook named [systemd-tool](https://github.com/random-archer/mkinitcpio-systemd-tool){:target="_blank"}, **which provides early remote SSH access before the root partition gets mounted.**. Let's proceed with the following command:
 
 ```bash
-$ pacman -S mkinitcpio-systemd-tool busybox cryptsetup openssh tinyssh tinyssh-convert
+$ pacman -S mkinitcpio-systemd-tool busybox cryptsetup openssh tinyssh tinyssh-convert mc
 ```
 
 ### 2 - Add 'systemd-tool' HOOK
@@ -172,10 +172,10 @@ home-server      /dev/sdb1                                   /root/keyfile      
 Now it is time to **start and enabled the required services**:
 
 ```bash
-$ systemctl enable initrd-cryptsetup.path
-$ systemctl enable initrd-tinysshd
-$ systemctl enable initrd-debug-progs
-$ systemctl enable initrd-sysroot-mount
+$ sudo systemctl enable initrd-cryptsetup.path
+$ sudo systemctl enable initrd-tinysshd
+$ sudo systemctl enable initrd-debug-progs
+$ sudo systemctl enable initrd-sysroot-mount
 ```
 
 ### 7 - Double check your Kernel Paramters
@@ -192,21 +192,57 @@ options rd.luks.uuid=83a6d1c1-8348-4b0c-bb7d-ab1f430368d1
         root=/dev/mapper/nuc-root rw resume=/dev/mapper/nuc-swap ro intel_iomnu=igfx_off
 ```
 
-### 8 - Build 'initramfs'
+### 8 - Setting up Tiny SSH
 
-It is now time to [create and activate our initramgfs image](https://wiki.archlinux.org/title/Mkinitcpio#Manual_generation){:target="_blank"} via [mkinitcpio](https://wiki.archlinux.org/title/Mkinitcpio){:target="_blank"}:
+Now we have to **setup the SSH service in order to accept remote connections**:
+
+ - The **shell that appears to unlock the partition** is a [tinyssh](https://tinyssh.org/){:target="_blank"}: service.
+ - **Tinyssh only recognizes Ed25519 SSH keys**, so [we need to generate an Ed25519 key pair](generate-ssh-keys-on-linux){:target="_blank"} and paste the **public key** to `/root/.ssh/authorized_keys`.
+ - At this early stage, **we can ONLY connect as root user, because other users are NOT available yet.**
+
+One more thing is that we need to tell the system that **we want a static ip** (by default is DHCP) at boot. So, inside the `/etc/mkinitcpio-systemd-tool/network/initrd-network.network`:
+
+
+```bash
+$ sudo vim /etc/mkinitcpio-systemd-tool/network/initrd-network.network
+```
+
+Add **this content:**
+
+```bash
+[Match]
+Name=eth0
+
+[Network]
+Address=192.168.1.50/24
+Gateway=192.168.1.1
+DNS=192.168.1.1
+```
+
+As we can see, the `[Match]` label **represents the network interface by the usage of kernel interface names (eth0)**. If you cannot find yours, **here is a helper command**:
+
+```bash
+$ sudo dmesg | grep -i eth0
+```
+
+Which **displays**:
+
+```bash
+[   20.157387] e1000e 0000:00:1f.6 eth0: (PCI Express:2.5GT/s:Width x1) 94:c6:91:1f:58:ff
+[   20.157395] e1000e 0000:00:1f.6 eth0: Intel(R) PRO/1000 Network Connection
+[   20.157459] e1000e 0000:00:1f.6 eth0: MAC: 12, PHY: 12, PBA No: FFFFFF-0FF
+[   20.201872] e1000e 0000:00:1f.6 eno1: renamed from eth0
+```
+
+### 9 - Build 'initramfs'
+
+As last step, we have to [create and activate our initramgfs image](https://wiki.archlinux.org/title/Mkinitcpio#Manual_generation){:target="_blank"} via [mkinitcpio](https://wiki.archlinux.org/title/Mkinitcpio){:target="_blank"}:
 
 ```bash
 $ mkinitcpio -P
 ```
 
-### 9 - Setting up Tiny SSH
-
-We have to **setup the SSH service in order to accept remote connections**:
-
- - The **shell that appears to unlock the partition** is a [tinyssh](https://tinyssh.org/){:target="_blank"}: service.
- - **Tinyssh only recognizes Ed25519 SSH keys**, so [we need to generate an Ed25519 key pair](generate-ssh-keys-on-linux){:target="_blank"} and paste the **public key** to `/root/.ssh/authorized_keys`.
- - At this early stage, **we can ONLY connect as root user, because other users are NOT available yet.**
+### 10 - Reboot the system
 
 Last but not least, **let's reboot**. Afterwards, **we should see a prompt like this:**
 
