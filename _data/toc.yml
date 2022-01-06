@@ -1,8 +1,10 @@
 - title: "Guides"
   url: docs/guides
   links:
+    - title: "- Configure SSH access on your Linux Machine."
+      url: "docs/guides/configure-ssh-access-on-your-linux-machine" 
     - title: "- Decrypt LUKS partition remotely via SSH."
-      url: "docs/guides/decrypt-luks-partition-remotely-via-ssh" 
+      url: "docs/guides/decrypt-luks-partition-remotely-via-ssh"
     - title: "- Install and configure Wireguard."
       url: "docs/guides/install-and-configure-wireguard"
 

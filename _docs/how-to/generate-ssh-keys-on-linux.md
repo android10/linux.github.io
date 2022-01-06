@@ -41,7 +41,7 @@ Enter file in which to save the key (/home/fernando/.ssh/id_ed25519): my_id_ed25
 Enter passphrase (empty for no passphrase): 
 ```
 
-**We have to pick a password (passphrase) which will add an extra layer of security when accessing our ssh key. Recommended.**  
+**We have to pick a password (passphrase) which will add an extra layer of security when accessing our SSH keys. RECOMMENDED.**  
 
 ```bash
 Enter passphrase (empty for no passphrase): 
