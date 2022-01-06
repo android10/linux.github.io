@@ -10,7 +10,7 @@ tags:
  - security
 ---
 
-# Install and configure Wireguard
+# Install and configure Wireguard (Attention! THIS ONE IS A WIP)
 
 From the [Wireguard](https://www.wireguard.com/){:target="_blank"} project homepage:
 
@@ -34,11 +34,11 @@ The pre-shared key (PSK) is an optional security improvement as per the [WireGua
 
 ### Generate Server Keys
 
+TODO
 
 ### Generate Client Keys
 
-
-
+TODO
 
 ## Install Wireguard Tools
 
@@ -47,10 +47,6 @@ We need the `wireguard-tools` package for **userspace utilites** (**both server 
 ```bash
 $ sudo pacman -S wireguard-tools
 ```
-
-
-
-
 
 ## OpenWRT
 
