@@ -1,6 +1,6 @@
 ---
 title:  Remote host identification has changed.
-description: In this post, we are going to see to mitigate the issue 'Remote host identification has changed'.
+description: In this post, we are going to see how to mitigate the issue 'Remote host identification has changed'.
 tags: 
  - troubleshooting
 ---

@@ -50,9 +50,10 @@
 - title: "Troubleshooting"
   url: docs/troubleshooting
   links:
+    - title: "- Disable ipv6 using Network Manager."
+      url: "docs/troubleshooting/disable-ipv6-using-network-manager" 
     - title: "- Remote host identification has changed."
       url: "docs/troubleshooting/remote-host-identification-has-changed" 
-
 
 - title: "Extras"
   url: "docs/extras"
