@@ -59,6 +59,10 @@ If you are interested in installing **Wireguard** on your [OpenWRT](https://open
 
 Some time ago I published a [Github Repository](https://github.com/android10/RaspberryPi-Wireguard){:target="_blank"} on how to do this and it is still valid. Feel free to contribute if you run into issues. 
 
+## Troubleshooting
+
+ - [Wireguard Speed is too low on OpenWRT](https://forum.openwrt.org/t/wireguard-speed-is-too-low/85587/12){:target="_blank"}
+
 ## References
 
  - [Wireguard Website](https://www.wireguard.com/){:target="_blank"}
