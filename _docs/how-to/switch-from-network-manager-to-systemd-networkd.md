@@ -28,6 +28,7 @@ I personally use [NetworkManager](https://wiki.archlinux.org/title/NetworkManage
 **It is very straightforward to move from Network Manager to systemd-networkd.** As a first step let's **disable** `Network Manager` service and **enable** `systemd-networkd` service:
 
 ```bash
+$ sudo systemctl stop NetworkManager
 $ sudo systemctl disable NetworkManager
 $ sudo systemctl enable systemd-networkd 
 ```
