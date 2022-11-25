@@ -121,7 +121,7 @@ bin dev home lib64 media opt root sbin sys usr
 boot etc lib lost+found mnt proc run srv tmp var
 
 $ ls /mnt/home/
-<it's still empty>
+# <it's still empty>
 
 $ mount /dev/nvme0n1p2 /mnt/home -t btrfs -o subvol=home
 
@@ -186,6 +186,27 @@ $ ls -lha /mnt/home
 
 # change root
 $ arch-chroot 
+```
+
+## Extra Ball: internet connection with `iwctl`
+
+Once we are able to work with our system as described above, it is important that we have internet connection:
+
+```bash
+# Run iwd Network Supplicant
+$ iwctl 
+
+# Get a list of our wireless devices
+$ station list
+
+# Scan for networks
+$ station <INTERFACE> scan
+
+# Show avalable SSIDs
+$ station <INTERFACE> get-networks
+
+# Connect to the prefered SSID
+$ station <INTERFACE> connect "SSID" 
 ```
 
 ## References
