@@ -12,3 +12,4 @@ perform an specific task in **Linux**.
  - [Configure SSH access on your Linux Machine.](configure-ssh-access-on-your-linux-machine)
  - [Decrypt LUKS partition remotely via SSH.](decrypt-luks-partition-remotely-via-ssh)
  - [Install and configure Wireguard.](install-and-configure-wireguard)
+ - [Mount LUKS parition for System Recovery.](mount-luks-partition-for-system-recovery)

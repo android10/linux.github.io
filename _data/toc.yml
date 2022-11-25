@@ -7,6 +7,8 @@
       url: "docs/guides/decrypt-luks-partition-remotely-via-ssh"
     - title: "- Install and configure Wireguard."
       url: "docs/guides/install-and-configure-wireguard"
+    - title: "- Mount LUKS partitions for System Recovery."
+      url: "docs/guides/mount-luks-partition-for-system-recovery"
 
 
 - title: "How to"
