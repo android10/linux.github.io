@@ -29,7 +29,7 @@ nvme0n1     259:0    0 476.9G  0 disk
                                        /
 ```
 
-## File system: ext4
+## File system: **ext4**
 
 [Ext4](https://wiki.archlinux.org/title/ext4) is the evolution of the most used Linux filesystem, Ext3. In many ways, Ext4 is a deeper improvement over Ext3 than Ext3 was over Ext2. It is very common and at this point is very likely you are using this fs, so let's have a look on how to proceed with it.
 
@@ -66,7 +66,7 @@ $ umount -R /mnt
 $ reboot
 ```
 
-## File system: btrfs
+## File system: **btrfs**
 
  [Btrfs](https://wiki.archlinux.org/title/Btrfs){:target="_blank"} is a modern copy on write (CoW) filesystem for Linux aimed at implementing advanced features while also focusing on fault tolerance, repair and easy administration. This file system is gaining more and more popularity and in order to mount an encrypted partition backed by a [btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page){:target="_blank"} file system, we need to perform the following steps. It is important to understand the concept of [sub-volumes](https://fedoramagazine.org/os-chroot-101-covering-btrfs-subvolumes/).
 
