@@ -18,6 +18,8 @@
       url: "docs/how-to/change-your-hostname"
     - title: "- Copy folder content including hidden files."
       url: "docs/how-to/copy-folder-content-including-hidden-files"
+    - title: "- Encrypt an External Hard Drive."
+      url: "docs/how-to/encrypt-an-external-hard-drive"
     - title: "- Find your IP address."
       url: "docs/how-to/find-your-ip-address"
     - title: "- Generate SSH keys on Linux."
