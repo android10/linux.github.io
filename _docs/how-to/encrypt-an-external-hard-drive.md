@@ -30,6 +30,12 @@ $ sudo wipefs -a /dev/sda
 
 ```bash
 $ sudo cryptsetup --verbose --verify-passphrase luksFormat /dev/sda
+
+WARNING!
+========
+This will overwrite data on /dev/sda irrevocably.
+
+Are you sure? (Type 'yes' in capital letters):
 ```
 
 ### Open the encrypted partition
@@ -79,7 +85,7 @@ nvme0n1     259:0    0 476.9G  0 disk
 In order to **safely remove your drive**, run the following command:
 
 ```bash
-$ sudo cryptsetup luksClose sdX
+$ sudo cryptsetup luksClose sda
 ```
 
 ### Mounting the encrypted device
