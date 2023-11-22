@@ -198,6 +198,8 @@ Now we have to **setup the SSH service in order to accept remote connections**:
 
  - The **shell that appears to unlock the partition** is a [tinyssh](https://tinyssh.org/){:target="_blank"}: service.
  - **Tinyssh only recognizes Ed25519 SSH keys**, so [we need to generate an Ed25519 key pair](generate-ssh-keys-on-linux){:target="_blank"} and paste the **public key** to `/root/.ssh/authorized_keys`.
+ - Then we create a `symlink` to where [mkinitcpio-systemd-tool](https://github.com/random-archer/mkinitcpio-systemd-tool) pick them up before converting them to **tinyssh** format.
+   - `sudo ln -s /root/.ssh/authorized_keys /etc/mkinitcpio-systemd-tool/config/authorized_keys` 
  - At this early stage, **we can ONLY connect as root user, because other users are NOT available yet.**
 
 One more thing is that we need to tell the system that **we want a static ip** (by default is DHCP) at boot. So, inside the `/etc/mkinitcpio-systemd-tool/network/initrd-network.network`:
