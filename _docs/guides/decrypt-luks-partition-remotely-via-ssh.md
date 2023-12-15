@@ -18,7 +18,7 @@ One of the most common situations **when we want to remotely decrypt our LUKS pa
 ## Recommended requirements for this guide 
 
  - A **Headless Server** running [Arch Linux](https://archlinux.org/){:target="_blank"} or [Manjaro](https://manjaro.org/){:target="_blank"} or any other Arch based distro. 
- - **Linux installation** should be (but not extrictly) based on [Systemd](https://wiki.archlinux.org/title/Systemd){:target="_blank"}:
+ - **Linux installation** should be based on [Systemd](https://wiki.archlinux.org/title/Systemd){:target="_blank"}:
     - [systemd-boot](https://wiki.archlinux.org/title/Systemd-boot){:target="_blank"} as the UEFI boot manager.
     - [systemd-networkd](../how-to/switch-from-network-manager-to-systemd-networkd) as a network connection manager. 
 
